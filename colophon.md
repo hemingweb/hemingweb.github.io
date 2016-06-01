@@ -1,5 +1,4 @@
 ---
-layout: main
 ---
 
 # A nice colophon page

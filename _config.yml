@@ -1,0 +1,7 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "main"
+title: "Hemingweb GitHub io"
