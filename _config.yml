@@ -4,4 +4,6 @@ defaults:
       path: ""
     values:
       layout: "main"
+gems:
+  - jekyll-sitemap
 title: "Hemingweb GitHub io"
