@@ -5,5 +5,7 @@ defaults:
     values:
       layout: "main"
 gems:
-  - jekyll-sitemap
+  - jekyll-sitemap 
+  - jekyll-feed 
+  - jekyll-redirect-from
 title: "Hemingweb GitHub io"
