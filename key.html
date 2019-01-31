@@ -7,7 +7,7 @@
 			}
 			
 			function uniKeyCode(event) {
-				var key = event.keyCode;
+				var key = event.key || event.keyCode;
 				document.getElementById("demo2").innerHTML = "Unicode KEY code: " + key;
 			}
 		
