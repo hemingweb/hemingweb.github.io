@@ -2,7 +2,7 @@
 	<head>
 		<script>
 			function uniCharCode(event) {
-			  var char = event.which || event.keyCode || event.touchend;
+			  var char = event.which || event.keyCode || event.touchend || event.key || event.code;
 			  document.getElementById("demo").innerHTML = "Unicode CHARACTER code: " + char;
 			}
 			
