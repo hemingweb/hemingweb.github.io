@@ -11,7 +11,8 @@
 				document.getElementById("demo2").innerHTML = "Unicode KEY code: " + key;
 			}
 			document.addEventListener('keydown', function(e) {
-				console.warn(e.keyCode, e.code, e.key);
+// 				console.warn(e.keyCode, e.code, e.key);
+				document.getElementById("ael").innerHTML = e.keyCode +" "+ e.code +" "+ e.key;
 				window.scrollTo(0, 0)
 			});
 		</script>
@@ -27,6 +28,8 @@
 		
 		<p>onkeypress - <span id="demo"></span></p>
 		<p>onkeydown - <span id="demo2"></span></p>
+		
+		<p>addEventListener - <span id"ael"></span></p>
 		
 	</body>
 	
