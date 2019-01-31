@@ -10,7 +10,10 @@
 				var key = event.key || event.keyCode;
 				document.getElementById("demo2").innerHTML = "Unicode KEY code: " + key;
 			}
-		
+			document.addEventListener('keydown', function(e) {
+				console.warn(e.keyCode, e.code, e.key);
+				window.scrollTo(0, 0)
+			});
 		</script>
 			
 	</head>
