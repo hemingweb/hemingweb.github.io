@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script>
+			function uniCharCode(event) {
+			  var char = event.which || event.keyCode;
+			  document.getElementById("demo").innerHTML = "Unicode CHARACTER code: " + char;
+			}
+			
+			function uniKeyCode(event) {
+				var key = event.keyCode;
+				document.getElementById("demo2").innerHTML = "Unicode KEY code: " + key;
+			}
+		
+		</script>
+			
+	</head>
+	
+	
+	<body>
+		
+		<input type="text" onkeypress="uniCharCode(event)" onkeydown="uniKeyCode(event)"> 
+		
+		<input type="text" onkeypress="uniCharCode(event)" onkeydown="uniKeyCode(event)"> 
+		
+		<p>onkeypress - <span id="demo"></span></p>
+		<p>onkeydown - <span id="demo2"></span></p>
+		
+	</body>
+	
+</html>
