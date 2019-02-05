@@ -9,8 +9,7 @@
 		}
 	</style>
 	<script>
-	(function() {
-	    "use strict";
+	function() {
 	
 	    var elems = document.querySelectorAll("input, textarea, [contenteditable]");
 	
@@ -101,7 +100,7 @@
 	            document.activeElement.blur();
 	        }
 	    });
-	}());
+	}();
 
 	document.addEventListener('nextbuttonclick', function() {
 	  document.querySelector('#status').textContent = '?';
