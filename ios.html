@@ -9,7 +9,8 @@
 		}
 	</style>
 	<script>
-	function() {
+	;(function() {
+	    "use strict";
 	
 	    var elems = document.querySelectorAll("input, textarea, [contenteditable]");
 	
@@ -23,7 +24,7 @@
 	    var isAClick = false;
 	
 	    onelemfocus = function(evt) {
-	        var that = this;
+	    var that = this;
 	
 	        prevIndex = currIndex;
 	        currIndex = evt.target.dataset.servantIndex;
@@ -100,21 +101,21 @@
 	            document.activeElement.blur();
 	        }
 	    });
-	}();
+	}());
 
-	document.addEventListener('nextbuttonclick', function() {
-	  document.querySelector('#status').textContent = '?';
-	  window.setTimeout(function() {
-	    document.querySelector('#status').textContent = 'next';
-	  }, 100);
-	}, false);
-	
-	document.addEventListener('previousbuttonclick', function() {
-	  document.querySelector('#status').textContent = '?';
-	  window.setTimeout(function() {
-	    document.querySelector('#status').textContent = 'prev';
-	  }, 100);
-	}, false);	
+		document.addEventListener('nextbuttonclick', function() {
+		  document.querySelector('#status').textContent = '?';
+		  window.setTimeout(function() {
+		    document.querySelector('#status').textContent = 'next';
+		  }, 100);
+		}, false);
+		
+		document.addEventListener('previousbuttonclick', function() {
+		  document.querySelector('#status').textContent = '?';
+		  window.setTimeout(function() {
+		    document.querySelector('#status').textContent = 'prev';
+		  }, 100);
+		}, false);	
 	</script>
 	
 </head>
