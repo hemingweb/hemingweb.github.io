@@ -1,13 +1,24 @@
 <html>
 <head>
-	<style>
-		input, textarea, div[contentEditable] {
-		  width: 100px;
-		  height: 20px;
-		  display: block;
-		  border: 1px solid #202020;
-		}
+	<style class="cp-pen-styles">
+	input, textarea, div[contentEditable] {
+		width: 100px;
+		height: 20px;
+		display: block;
+		border: 1px solid #202020;
+	}
 	</style>
+</head>
+
+<body>
+
+	<p><strong>Status:</strong><div id='status'>?</div></p>
+	<input type='text' />
+	<input type='text' />
+	<textarea></textarea>
+	<div contenteditable='true'></div>
+	<div contenteditable='true'></div>
+
 	<script>
 	;(function() {
 	    "use strict";
@@ -117,17 +128,8 @@
 		  }, 100);
 		}, false);	
 	</script>
-	
-</head>
 
-<body>
 
-<p><strong>Status:</strong><div id='status'>?</div></p>
-<input type='text' />
-<input type='text' />
-<textarea></textarea>
-<div contenteditable='true'></div>
-<div contenteditable='true'></div>
 
 </body>
 </html>
