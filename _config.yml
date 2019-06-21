@@ -1,0 +1,15 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "main"
+gems:
+  - jekyll-sitemap 
+  - jekyll-feed 
+  - jekyll-redirect-from
+title: "Hemingweb GitHub io"
+description: User-level github page
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-midnight
