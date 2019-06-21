@@ -5,6 +5,7 @@ defaults:
     values:
       layout: "main"
 gems:
+  - jemoji
   - jekyll-sitemap 
   - jekyll-feed 
   - jekyll-redirect-from
