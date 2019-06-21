@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+As a developer and manager it has come to my attention that I am not very good at
+shouting about what I do. Whilst, I do not have a particular problem with this, I
+feel it effects the percetion of my team within the business. And that can be a
+problem.
 
-### More Information
+I am sure there are a bunch of very good reasons for this, but in an attempt to
+improve this skill, I've desided to blog about what I am doing. The motivation
+for this particular action came from [Ali Abdaal](https://aliabdaal.com/)
+and his recomendation of [Show your work](https://austinkleon.com/show-your-work/).
 
-A place to include any other types of information that you'd like to include about yourself.
+If you have not seen [Ali Abdaal's](https://aliabdaal.com/)
+[YouTube channel](https://www.youtube.com/user/Sepharoth64/featured),
+it is a great source of learning and productivity tips. I consider myself to be
+a life learner. As such, maybe I can start shouting about what I am doing, and
+subsequently represent my team better.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[blog@hemingweb.com](mailto:blog@hemingweb.com)
