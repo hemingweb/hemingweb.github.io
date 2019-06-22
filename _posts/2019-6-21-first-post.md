@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post!
-tags: work, study
+tags: work
 ---
 
 I worked from home today and took the opportunity to get an early start, I
