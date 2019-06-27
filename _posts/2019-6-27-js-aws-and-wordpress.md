@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JS AWS and WordPress
+title: JS, AWS and WordPress
 tags: study
 ---
 
